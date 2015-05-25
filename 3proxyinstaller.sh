@@ -1,8 +1,8 @@
 apt-get update && apt-get -y upgrade
 apt-get install -y build-essential nano
-wget http://3proxy.ru/0.6.1/3proxy-0.6.1.tgz
-tar xzf 3proxy-0.6.1.tgz
-cd 3proxy-0.6.1
+wget http://3proxy.ru/0.7.1.1/3proxy-0.7.1.1.tgz
+tar xzf 3proxy-0.7.1.1.tgz
+cd 3proxy
 make -f Makefile.Linux
 cd src
 mkdir /etc/3proxy/
